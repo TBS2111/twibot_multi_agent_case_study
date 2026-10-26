@@ -1,0 +1,44 @@
+[
+  {
+    "id": "T1585.001",
+    "title": "Establish Accounts: Social Media Accounts",
+    "source": "MITRE ATT&CK (paraphrased; verify at attack.mitre.org)",
+    "text": "Adversaries may create and cultivate social media accounts to use in later operations, for example to impersonate, to distribute content, or to build apparent credibility. Created accounts often share setup traits such as similar profile completeness, similar registration timing, and reused content."
+  },
+  {
+    "id": "T1586.001",
+    "title": "Compromise Accounts: Social Media Accounts",
+    "source": "MITRE ATT&CK (paraphrased; verify at attack.mitre.org)",
+    "text": "Adversaries may take over existing social media accounts instead of creating new ones, to inherit an established history and audience. Signs include a sudden change in posting behaviour on an old account, which registration-date clustering alone will not reveal."
+  },
+  {
+    "id": "T1583.006",
+    "title": "Acquire Infrastructure: Web Services",
+    "source": "MITRE ATT&CK (paraphrased; verify at attack.mitre.org)",
+    "text": "Adversaries may rely on public web services such as link shorteners, hosting and content platforms to host or redirect to material, so that the infrastructure looks legitimate. Many accounts promoting the same destination link is one observable consequence."
+  },
+  {
+    "id": "G-CREATION",
+    "title": "Guidance: clustered account creation",
+    "source": "analyst guidance (author-written)",
+    "text": "Many accounts in one community registered within a short window can indicate batch creation, but also reflects real events such as a campaign, a product launch or a platform migration. Compare the community's creation dates with the overall population on the same days before drawing conclusions."
+  },
+  {
+    "id": "G-SHARED-LINKS",
+    "title": "Guidance: shared links, hashtags and repeated text",
+    "source": "analyst guidance (author-written)",
+    "text": "Shared urls, hashtags and near-identical tweet text across accounts are common coordination indicators. Shortened links are often unique per post, so a repeated shortened link is stronger evidence than a repeated popular hashtag. Trending hashtags and syndicated news text are shared by many unrelated accounts."
+  },
+  {
+    "id": "G-BENIGN",
+    "title": "Guidance: benign explanations for similar accounts",
+    "source": "analyst guidance (author-written)",
+    "text": "Similarity is not proof of coordination. Fan communities, brand or news account families, automated but legitimate bots, and people who follow the same sources can all form tight, similar clusters. Treat community detection output as a lead to verify, not a verdict."
+  },
+  {
+    "id": "G-ATTACK-FIT",
+    "title": "Guidance: scope of ATT&CK for social bot analysis",
+    "source": "analyst guidance (author-written)",
+    "text": "ATT&CK describes adversary behaviour against enterprise systems; its resource development techniques only loosely cover social media manipulation. Any mapping from a bot community to a technique is an analyst hypothesis and needs supporting evidence beyond this dataset."
+  }
+]

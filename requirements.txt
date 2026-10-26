@@ -1,0 +1,15 @@
+torch>=2.0
+numpy
+scipy
+scikit-learn
+pandas
+networkx>=3.0
+tqdm
+langchain-core
+langgraph
+stable-baselines3>=2.0   # PPO actor-critic classifier
+gymnasium
+transformers>=4.30      # semantic agent (HuggingFace BERT-style embeddings)
+# optional
+# sentence-transformers      (semantic_backend="sbert")
+# langchain-anthropic        (use_llm_supervisor=True)
